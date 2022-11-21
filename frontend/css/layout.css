@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -21,7 +17,7 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
@@ -118,6 +114,10 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
+#counter {
+   font-family: 'Gochi Hand', cursive;
+   font-size: 35px;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -1001,6 +1001,7 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+   
 }
 
 footer a, footer a:visited { color: #525252; }
