@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -203,12 +203,12 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #f3efef;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -225,9 +225,74 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
+#about .download {
+   padding-bottom: 1px;
+   border-bottom: 2px solid #11ABB0;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* c. My Project Section
+/* ------------------------------------------------------------------ */
+
+#project {
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#project h1 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+   text-align: center;
+   font-size: 30px;
+   padding-bottom: 66px;
+}
+#project .row{
+   padding: 15px;
+   border-radius: 5px;
+}
+#project img{
+   border-radius: 5px;
+}
+#project .row:hover{
+   background: #2B2B2B;
+}
+#project a, #project a:visited  { color: #fff; }
+#project a:hover, #project a:focus { color: #11ABB0; }
+
+#project h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#project p {
+   line-height: 30px;
+   color: #f3efef;
+}
+#project .profile-pic {
+   position: relative;
+   width: 180px;
+   height: 180px;
+   border-radius: 100%;
+}
+#project .contact-details { width: 41.66667%; }
+#project .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#project .main-col { padding-right: 5%; }
+#project .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#project .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#project .download {
+   padding-bottom: 1px;
+   border-bottom: 2px solid #11ABB0;
 }
 
 
@@ -554,6 +619,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+
+
+
+/* content at start */
+
 
 
 /* fadein/fadeout effect for modal popup
