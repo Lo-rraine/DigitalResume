@@ -2,7 +2,7 @@
   "profiles": {
     "GetResumeCounter": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7085",
+      "commandLineArgs": "--port 7014",
       "launchBrowser": false
     }
   }

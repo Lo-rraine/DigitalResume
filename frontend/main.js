@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
 
-//const functionApiUrl = 'http://localhost:7085/api/Function1';
+const functionApiUrl = 'https://getresumecounter20221122183757.azurewebsites.net/api/Function1?code=wP2R2IcRoOQl3_Od2xSH9ojMvYQPOOn-7lSk9KDt-XW7AzFurL2NKg==';
 
 
 const getVisitCount = () => {
