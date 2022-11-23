@@ -27,8 +27,7 @@
 
    <!-- Script
    ================================================== -->
-   <script src="js/modernizr.js"></script>
-   <script src="main.js"></script>
+
 
    <!-- Favicons
 	================================================== -->
@@ -38,9 +37,14 @@
 
 <body>
 
+   <div id="loader" class="">
+      <img src="./images/walk.gif" alt=""/>
+      <p>Fetching the<span class="loader-text"> API</span></p>
+   </div>
    <!-- Header
    ================================================== -->
    <header id="home">
+      
 
       <nav id="nav-wrap">
 
@@ -54,6 +58,7 @@
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
+
 
       <div class="row banner">
          <div class="banner-text">
@@ -76,7 +81,7 @@
 
    </header> <!-- Header End -->
 
-
+   
    <!-- About Section
    ================================================== -->
    <section id="about">
@@ -219,7 +224,7 @@
 
       <div class="row">
 
-         <div class="twelve columns">
+         <div class="twelve columns footer">
 
             <ul class="social-links">
                <li><a href="https://twitter.com/blaqRaine"><i class="fa fa-twitter"></i></a></li>
@@ -245,6 +250,10 @@
 
    <!-- Java Script
    ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="main.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
