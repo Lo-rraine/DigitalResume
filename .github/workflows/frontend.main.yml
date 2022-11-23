@@ -4,8 +4,6 @@ name: frontend_deploy
 on:
     push:
         branches: [ main ]
-        paths:
-        -'frontend/**'
 
 jobs:
   build:
